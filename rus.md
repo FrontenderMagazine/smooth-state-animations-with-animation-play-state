@@ -7,7 +7,7 @@
 
 Простое решение будет выглядеть приблизительно так:
 
-<iframe src="http://dabblet.com/gist/9786900" width="100%" height="400"></iframe>
+<iframe src="//dabblet.com/gist/9786900" width="100%" height="400"></iframe>
 
 Однако, это значит, что когда вы уберете курсор с элемента он резко вернется в 
 свое начальное состояние (в котором отсутствует вращение). В большинстве случаев
@@ -17,7 +17,7 @@
 `animation-play-state: paused;` и изменять значение этого свойства по :hover на
 `animation-play-state: running;`. Вот что у нас получится:
 
-<iframe src="http://dabblet.com/gist/9787052" width="100%" height="400"></iframe>
+<iframe src="//dabblet.com/gist/9787052" width="100%" height="400"></iframe>
 
 Я обнаружила это, когда помогала моему другу [Джулиану][1] (Julian) с его 
 [одностраничником][2]. Когда ты наводишь курсор на элемент `figure` содержащий 
